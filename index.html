@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <title>SAP BI Menu</title>
+	    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<script
+			id="sap-ui-bootstrap"
+			src="resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-libs="sap.m, sap.ui.commons, sap.ui.table"
+			data-sap-ui-resourceroots='{
+				"sap.ui.demo.myFiori": "./"
+			}' >
+		</script>
+		
+		<script>
+			new sap.ui.core.ComponentContainer({
+				name : "sap.ui.demo.myFiori"
+			}).placeAt("content");
+		</script>
+		 
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>
